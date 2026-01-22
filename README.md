@@ -62,6 +62,11 @@ Keybinds are configurable in the in-game menu.
 - Config file: `config/darktriad.json`
 - This project was made with the collaboration of AI, including OpenAI's Codex and Anthropic's Claude Code.
 
+## Project Status
+This project is currently abandoned as my time is committed to other projects. If there is public interest, I may develop it further.
+This GitHub repository is only for downloading the cheat client and does not include the full project folder.
+If you want to build on this project, reach out to me on Instagram at `VICTOR_NDEZ` and I can share the full project folder so you can continue development.
+
 ## Media
 ### Menu UI
 ![Main menu UI](media/2026-01-22_10.35.19.png)

@@ -1,5 +1,7 @@
 # DarkTriad
 
+![DarkTriad logo](media/darktriad-logo.png)
+
 DarkTriad is a private-use Minecraft Fabric client mod for 1.21.10.
 
 ## Requirements
@@ -60,9 +62,29 @@ Keybinds are configurable in the in-game menu.
 - Config file: `config/darktriad.json`
 
 ## Media
-Logo: [LINK TBD]
-Screenshots:
-- [LINK TBD]
+### Menu UI
+![Main menu UI](media/2026-01-22_10.35.19.png)
+
+### ESP
+![ESP on mobs and items](media/2026-01-22_10.36.30.png)
+
+### X-ray
+![X-ray enabled](media/2026-01-22_10.36.48.png)
+
+### X-ray Block Selection
+![X-ray block selection menu](media/2026-01-22_10.37.27.png)
+
+### AutoFarm Settings
+![AutoFarm settings menu](media/2026-01-22_10.37.44.png)
+
+### BowAimbot Settings
+![BowAimbot settings](media/2026-01-22_10.41.03.png)
+
+### Item ESP Settings
+![Item ESP settings with color picker and item selection](media/2026-01-22_10.41.32.png)
+
+### Keybinds
+![Keybinds menu](media/2026-01-22_10.43.50.png)
 
 ## License
 All rights reserved. See `LICENSE`.

@@ -29,34 +29,34 @@ Keybinds are configurable in the in-game menu.
 
 ## Features (Client-Side)
 ### Combat
-- KillAura: Auto-attacks nearby entities with smart target filters and adjustable range, timed to Minecraft’s attack cooldown for smooth, human‑like swings.
-- BowAimbot (experimental): Smooth, configurable bow aim assist with prediction and smoothing sliders; locks during draw to keep shots steady and consistent.
-- AutoTotem: Instantly swaps a totem into your offhand at low health to save you from lethal hits.
-- AutoShield: Auto-swaps to a shield while holding right click for quick, reactive defense.
+- **KillAura**: Auto-attacks nearby entities with smart target filters and adjustable range, timed to Minecraft’s attack cooldown for smooth, human‑like swings.
+- **BowAimbot (experimental)**: Smooth, configurable bow aim assist with prediction and smoothing sliders; locks during draw to keep shots steady and consistent.
+- **AutoTotem**: Instantly swaps a totem into your offhand at low health to save you from lethal hits.
+- **AutoShield**: Auto-swaps to a shield while holding right click for quick, reactive defense.
 
 ### Vision / Rendering
-- X-ray (Sodium compatible): Hides non‑ore blocks and highlights ores/containers with a clean, shader‑friendly render path; works in both Vanilla and Sodium.
-- Fullbright: Night‑vision based brightness that stays stable with shaders/Sodium for clear visibility at all times.
-- ESP: High‑contrast player, mob, and item overlays so targets and loot are visible at a glance.
-- HealthTags: Wurst‑style health numbers over entities for instant combat awareness.
-- NoFireOverlay: Removes the fire overlay so your screen stays clear in combat.
-- NoWeather: Disables rain visuals to keep visibility crisp.
-- ShieldLower: Lowers the shield overlay so you keep a wider field of view.
+- **X-ray (Sodium compatible)**: Hides non‑ore blocks and highlights ores/containers with a clean, shader‑friendly render path; works in both Vanilla and Sodium.
+- **Fullbright**: Night‑vision based brightness that stays stable with shaders/Sodium for clear visibility at all times.
+- **ESP**: High‑contrast player, mob, and item overlays so targets and loot are visible at a glance.
+- **HealthTags**: Wurst‑style health numbers over entities for instant combat awareness.
+- **NoFireOverlay**: Removes the fire overlay so your screen stays clear in combat.
+- **NoWeather**: Disables rain visuals to keep visibility crisp.
+- **ShieldLower**: Lowers the shield overlay so you keep a wider field of view.
 
 ### Movement / World
-- QuickBreak: Client‑side block breaking speed multiplier for faster mining and cleanup.
-- NoFall: Basic no‑fall toggle to reduce accidental fall damage during movement.
-- MaceDMG: Damage boost toggle for the mace when you want heavier hits.
+- **QuickBreak**: Client‑side block breaking speed multiplier for faster mining and cleanup.
+- **NoFall**: Basic no‑fall toggle to reduce accidental fall damage during movement.
+- **MaceDMG**: Damage boost toggle for the mace when you want heavier hits.
 
 ### Bots / Automation
-- AutoFarm: Smart harvest + replant with modes for **collect‑only** or **plant‑only**. Includes a batch mode to act on multiple blocks at once, or single‑block mode for more legit‑looking behavior.
-- AutoTree (experimental): A full tree bot that searches, paths, and harvests with movement that includes jumping, FOV awareness, and dynamic target selection. It also evaluates when to give up on a tree and move to the next to avoid getting stuck.
-- AutoTool: Automatically swaps to the best tool for the block you’re mining, then restores your previous item.
+- **AutoFarm**: Smart harvest + replant with modes for **collect‑only** or **plant‑only**. Includes a batch mode to act on multiple blocks at once, or single‑block mode for more legit‑looking behavior.
+- **AutoTree (experimental)**: A full tree bot that searches, paths, and harvests with movement that includes jumping, FOV awareness, and dynamic target selection. It also evaluates when to give up on a tree and move to the next to avoid getting stuck.
+- **AutoTool**: Automatically swaps to the best tool for the block you’re mining, then restores your previous item.
 
 ### UI / UX
-- Modern GUI with crisp toggles and dedicated config screens for each feature.
-- Config persistence in `config/darktriad.json` so settings stay exactly how you left them.
-- Status HUD showing enabled features with category filters for clean visibility.
+- **Modern GUI**: Crisp toggles and dedicated config screens for each feature.
+- **Config persistence**: `config/darktriad.json` keeps your settings exactly how you left them.
+- **Status HUD**: Shows enabled features with category filters for clean visibility.
 
 ## Notes
 - This mod is intended for private servers with consent.

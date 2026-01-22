@@ -32,12 +32,12 @@ Keybinds are configurable in the in-game menu.
 - **KillAura**: Auto-attacks nearby entities with smart target filters and adjustable range, timed to Minecraft’s attack cooldown for smooth, human‑like swings.
 - **BowAimbot (experimental)**: Smooth, configurable bow aim assist with prediction and smoothing sliders; locks during draw to keep shots steady and consistent.
 - **AutoTotem**: Instantly swaps a totem into your offhand at low health to save you from lethal hits.
-- **AutoShield**: Auto-swaps to a shield while holding right click for quick, reactive defense.
+- **AutoShield**: While you’re holding a weapon, it auto‑swaps to a shield on right‑click and instantly switches back to your weapon when you release.
 
 ### Vision / Rendering
 - **X-ray (Sodium compatible)**: Hides non‑ore blocks and highlights ores/containers with a clean, shader‑friendly render path; works in both Vanilla and Sodium.
 - **Fullbright**: Night‑vision based brightness that stays stable with shaders/Sodium for clear visibility at all times.
-- **ESP**: High‑contrast player, mob, and item overlays so targets and loot are visible at a glance.
+- **ESP**: High‑contrast player, mob, and item overlays that render through blocks so you can see targets and loot through walls, underground, and across terrain.
 - **HealthTags**: Wurst‑style health numbers over entities for instant combat awareness.
 - **NoFireOverlay**: Removes the fire overlay so your screen stays clear in combat.
 - **NoWeather**: Disables rain visuals to keep visibility crisp.

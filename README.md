@@ -29,33 +29,34 @@ Keybinds are configurable in the in-game menu.
 
 ## Features (Client-Side)
 ### Combat
-- KillAura: Auto-attacks nearby entities with range and target filters, respects attack cooldown.
-- BowAimbot (experimental): Smooths bow aiming toward a target; has prediction and smoothing sliders. Still being optimized.
-- AutoTotem: Auto-swaps a totem to offhand at low health.
-- AutoShield: Auto-swaps to a shield while holding right click.
+- KillAura: Auto-attacks nearby entities with smart target filters and adjustable range, timed to Minecraft’s attack cooldown for smooth, human‑like swings.
+- BowAimbot (experimental): Smooth, configurable bow aim assist with prediction and smoothing sliders; locks during draw to keep shots steady and consistent.
+- AutoTotem: Instantly swaps a totem into your offhand at low health to save you from lethal hits.
+- AutoShield: Auto-swaps to a shield while holding right click for quick, reactive defense.
 
 ### Vision / Rendering
-- X-ray (Sodium compatible): Hides non-ore blocks and highlights ores/containers; works with Sodium.
-- Fullbright: Night-vision based brightness that works with shaders/Sodium.
-- ESP: Player, mob, and item ESP overlays.
-- HealthTags: Wurst-style health numbers over entities.
-- NoFireOverlay: Removes the fire overlay.
-- NoWeather: Disables rain visuals.
-- ShieldLower: Lowers the shield overlay.
+- X-ray (Sodium compatible): Hides non‑ore blocks and highlights ores/containers with a clean, shader‑friendly render path; works in both Vanilla and Sodium.
+- Fullbright: Night‑vision based brightness that stays stable with shaders/Sodium for clear visibility at all times.
+- ESP: High‑contrast player, mob, and item overlays so targets and loot are visible at a glance.
+- HealthTags: Wurst‑style health numbers over entities for instant combat awareness.
+- NoFireOverlay: Removes the fire overlay so your screen stays clear in combat.
+- NoWeather: Disables rain visuals to keep visibility crisp.
+- ShieldLower: Lowers the shield overlay so you keep a wider field of view.
 
 ### Movement / World
-- QuickBreak: Client-side block breaking speed multiplier.
-- NoFall: Basic no-fall toggle (client-side movement).
-- MaceDMG: Damage boost toggle for the mace.
+- QuickBreak: Client‑side block breaking speed multiplier for faster mining and cleanup.
+- NoFall: Basic no‑fall toggle to reduce accidental fall damage during movement.
+- MaceDMG: Damage boost toggle for the mace when you want heavier hits.
 
 ### Bots / Automation
-- AutoFarm: Harvest + replant with a simple target selection system.
-- AutoTree (experimental): Searches for trees, walks toward them, chops logs, and attempts to pick up drops. Work in progress; pathing and pickup are still being refined.
+- AutoFarm: Smart harvest + replant with modes for **collect‑only** or **plant‑only**. Includes a batch mode to act on multiple blocks at once, or single‑block mode for more legit‑looking behavior.
+- AutoTree (experimental): A full tree bot that searches, paths, and harvests with movement that includes jumping, FOV awareness, and dynamic target selection. It also evaluates when to give up on a tree and move to the next to avoid getting stuck.
+- AutoTool: Automatically swaps to the best tool for the block you’re mining, then restores your previous item.
 
 ### UI / UX
-- Modern GUI with toggles and per-feature config screens.
-- Config persistence in `config/darktriad.json`.
-- Status HUD showing enabled features (with category filters).
+- Modern GUI with crisp toggles and dedicated config screens for each feature.
+- Config persistence in `config/darktriad.json` so settings stay exactly how you left them.
+- Status HUD showing enabled features with category filters for clean visibility.
 
 ## Notes
 - This mod is intended for private servers with consent.

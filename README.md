@@ -60,6 +60,7 @@ Keybinds are configurable in the in-game menu.
 ## Notes
 - This mod is intended for private servers with consent.
 - Config file: `config/darktriad.json`
+- This project was made with the collaboration of AI, including Codex and Anthropic's Claude Code.
 
 ## Media
 ### Menu UI
